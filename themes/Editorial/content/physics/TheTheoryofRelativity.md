@@ -5,6 +5,6 @@ draft = true
 tags = ['science','physics',]
 +++
 
-# The Theory of Relativity
+
 
 Albert Einstein's theory of relativity revolutionized our understanding of space, time, and gravity. This article explores the basics of both special and general relativity, delving into concepts such as time dilation and the curvature of spacetime

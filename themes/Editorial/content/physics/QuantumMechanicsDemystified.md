@@ -6,7 +6,6 @@ tags = ['science','physics',]
 +++
 
 
- 
- # 'QuantumMechanicsDemystified'
 
-Quantum mechanics is the branch of physics that describes the behavior of particles at the smallest scales. This article provides an accessible introduction to key concepts such as wave-particle duality, superposition, and entanglement.
+
+Quantum mechanics is the branch of physics that describes the behavior of particles at the smallest scales. This article provides an accessible introduction to key concepts such as wave-particle duality, superposition, and entanglement

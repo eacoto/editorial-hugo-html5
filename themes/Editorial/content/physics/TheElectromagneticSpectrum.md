@@ -6,6 +6,6 @@ tags = ['science','physics',]
 +++
 
 
-# 'TheElectromagneticSpectrum'
+
 
 The electromagnetic spectrum encompasses all forms of electromagnetic radiation, from radio waves to gamma rays. This article explains the different regions of the spectrum and their applications in fields such as astronomy, communication, and medicine.

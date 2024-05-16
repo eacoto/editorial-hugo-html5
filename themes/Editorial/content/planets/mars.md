@@ -8,7 +8,7 @@ tags = ['science','planets',]
 
 # Giant polygon rock patterns may be buried deep below Mars’ surface
 
-![Mars Canyon ](mars.jpg)
+![Mars Canyon ](/planets/mars.jpg)
 
 Enormous polygon patterns in rock lie dozens of meters below Mars’ surface, ground-penetrating radar data suggest.
 

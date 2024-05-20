@@ -19,7 +19,7 @@ weight = 30
 
 [[menus.main]]
 name = 'Biology'
-pageRef = '/planets'
+pageRef = '/Biology'
 weight = 40
 
 [[menus.main]]

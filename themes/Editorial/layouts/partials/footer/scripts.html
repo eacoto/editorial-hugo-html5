@@ -1,0 +1,15 @@
+{{- $scripts := slice "assets/js/jquery.min.js" "assets/js/browser.min.js" "assets/js/breakpoints.min.js" "assets/js/util.js" "assets/js/main.js" }}
+{{- range $scripts }}
+  {{- with resources.Get . }}
+    {{- if eq hugo.Environment "development" }}
+      {{- with . | js.Build }}
+        <script src="{{ .RelPermalink }}"></script>
+      {{- end }}
+      {{- else }}
+      {{- $opts := dict "minify" true }}
+      {{- with . | js.Build $opts | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}

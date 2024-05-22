@@ -4,8 +4,6 @@ date = 2024-05-20T09:17:56-05:00
 draft = true
 tags = ['science','physics',]
 +++
-# Cell Biology
-
 ## Introduction
 Cell biology is the study of the structure, function, and behavior of cells. It encompasses both the microscopic and molecular levels and includes various sub-disciplines such as biochemistry, molecular biology, and genetics.
 

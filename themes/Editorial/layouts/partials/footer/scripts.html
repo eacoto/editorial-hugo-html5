@@ -1,4 +1,4 @@
-{{- $scripts := slice "assets/js/jquery.min.js" "assets/js/browser.min.js" "assets/js/breakpoints.min.js" "assets/js/util.js" "assets/js/main.js" }}
+{{- $scripts := slice "js/jquery.min.js" "js/browser.min.js" "js/breakpoints.min.js" "js/util.js" "js/main.js"}}
 {{- range $scripts }}
   {{- with resources.Get . }}
     {{- if eq hugo.Environment "development" }}

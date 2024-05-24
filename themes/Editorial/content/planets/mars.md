@@ -5,8 +5,7 @@ draft = true
 tags = ['science','planets',]
 +++
 
-
-# Giant polygon rock patterns may be buried deep below Mars’ surface
+## Giant polygon rock patterns may be buried deep below Mars’ surface
 
 ![Mars Canyon ](/planets/mars.jpg)
 

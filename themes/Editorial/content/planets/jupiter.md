@@ -11,7 +11,7 @@ tags = ['science','planets',]
 
 ## Jupiter’s moon Io may have been volcanically active ever since it was born
 
-![Mars Canyon ](/planets/jupiter-3.jpg)
+<!-- [Mars Canyon ](/planets/jupiter-3.jpg) -->
 
 Jupiter’s moon Io has possibly been erupting for a very, very, very long time.
 

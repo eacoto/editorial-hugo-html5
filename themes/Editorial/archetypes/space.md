@@ -3,7 +3,8 @@ title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
 draft = true
 tags = ['science','space',]
-[params]
+[image]
+  [params]
     name = 'header'
     src = '/space/*.jpg'
 +++

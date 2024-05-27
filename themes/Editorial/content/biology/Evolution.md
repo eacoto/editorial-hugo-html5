@@ -3,6 +3,10 @@ title = 'Evolution'
 date = 2024-05-20T09:19:28-05:00
 draft = true
 tags = ['science','physics',]
+[image]
+  [params]
+    name = 'header'
+    src = '/biology/evolution.png'
 +++
 ## Introduction
 Evolution is the process by which different kinds of living organisms have developed and diversified from earlier forms during the history of the Earth. It is a central concept in biology, explaining the diversity of life.

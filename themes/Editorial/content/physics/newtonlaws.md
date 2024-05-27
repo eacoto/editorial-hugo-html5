@@ -3,6 +3,10 @@ title = 'Newtonlaws'
 date = 2024-05-16T09:49:21-05:00
 draft = true
 tags = ['science','physics',]
+[image]
+  [params]
+    name = 'header'
+    src = '/physics/newton.jpg'
 +++
 
 

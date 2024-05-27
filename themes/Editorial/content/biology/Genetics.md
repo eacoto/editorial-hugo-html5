@@ -3,6 +3,10 @@ title = 'Genetics'
 date = 2024-05-20T09:18:47-05:00
 draft = true
 tags = ['science','physics',]
+[image]
+  [params]
+    name = 'evolution'
+    src = '/biology/dna_editing.jpg'
 +++
 ## Introduction
 Genetics is the study of heredity and the variation of inherited characteristics. It explains how traits are passed from parents to offspring and involves the study of genes, genetic variation, and the molecular mechanisms of gene function.

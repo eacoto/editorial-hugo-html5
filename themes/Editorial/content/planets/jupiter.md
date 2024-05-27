@@ -3,10 +3,15 @@ title = 'Jupiter'
 date = 2024-05-16T09:49:41-05:00
 draft = true
 tags = ['science','planets',]
+[image]
+  [params]
+    name = 'header'
+    src = '/planets/jupiter-3.jpg'
 +++
 
 ## Jupiter’s moon Io may have been volcanically active ever since it was born
 
+![Mars Canyon ](/planets/jupiter-3.jpg)
 
 Jupiter’s moon Io has possibly been erupting for a very, very, very long time.
 

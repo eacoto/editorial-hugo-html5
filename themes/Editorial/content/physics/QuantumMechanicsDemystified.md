@@ -3,7 +3,12 @@ title = 'QuantumMechanicsDemystified'
 date = 2024-05-16T10:01:54-05:00
 draft = true
 tags = ['science','physics',]
+[image]
+  [params]
+    name = 'header'
+    src = '/physics/quantum.jpg'
 +++
+
 
 
 

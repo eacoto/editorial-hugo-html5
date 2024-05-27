@@ -3,6 +3,10 @@ title = 'Mars'
 date = 2024-05-16T09:48:42-05:00
 draft = true
 tags = ['science','planets',]
+[image]
+  [params]
+    name = 'header'
+    src = '/planets/mars.jpg'
 +++
 
 ## Giant polygon rock patterns may be buried deep below Mars’ surface

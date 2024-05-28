@@ -3,16 +3,20 @@
 <head>
   {{ partial "head/head.html" . }}
 </head>
-<body style="margin: 1rem 5rem;">
-  <header>
-    {{ partial "body/header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer/footer.html" . }}
-  </footer>
+<body class="is-preload">
+  <div id="wrapper">
+    <!-- Main -->
+    <main id="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <!-- Sidebar -->
+    <div id="sidebar" >
+      <div class="inner">
+        {{ partial "body/header.html" . }}
+        {{ partial "footer/footer.html" . }}
+      </div>
+    </div>
+  </div>
     {{ partialCached "footer/scripts.html" . }}
 </body>
 </html>

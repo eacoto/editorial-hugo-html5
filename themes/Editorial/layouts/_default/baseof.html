@@ -10,13 +10,7 @@
       {{ block "main" . }}{{ end }}
     </main>
     <!-- Sidebar -->
-    <div id="sidebar" >
-      <div class="inner">
-        {{ partial "body/menu.html" (dict "menuID" "main" "page" .) }}
-        {{ partial "footer/footer.html" . }}
-      </div>
-    </div>
-  </div>
+    {{ partial "body/sidebar.html" . }}
     {{ partialCached "footer/scripts.html" . }}
 </body>
 </html>

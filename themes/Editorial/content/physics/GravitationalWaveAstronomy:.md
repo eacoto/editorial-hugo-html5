@@ -1,5 +1,5 @@
 +++
-title = 'GravitationalWaveAstronomy:'
+title = 'Gravitational WaveAstronomy'
 date = 2024-05-27T19:30:01-05:00
 draft = true
 tags = ['science','physics',]

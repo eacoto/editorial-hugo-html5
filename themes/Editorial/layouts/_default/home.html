@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="inner">
+  {{ partial "body/header.html" . }}
   <h3> Home Template </h3>
   {{ .Content }}
   {{ range site.RegularPages }}

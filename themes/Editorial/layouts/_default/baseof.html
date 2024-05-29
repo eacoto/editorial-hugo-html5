@@ -12,7 +12,7 @@
     <!-- Sidebar -->
     <div id="sidebar" >
       <div class="inner">
-        {{ partial "body/header.html" . }}
+        {{ partial "body/menu.html" (dict "menuID" "main" "page" .) }}
         {{ partial "footer/footer.html" . }}
       </div>
     </div>

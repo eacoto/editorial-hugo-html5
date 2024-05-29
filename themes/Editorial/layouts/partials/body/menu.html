@@ -7,15 +7,16 @@ Renders a menu for the given menu ID.
 @example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 */}}
 <nav id="menu">
+  <header class="major">
+    <h2>Menu</h2>
+  </header>
 {{- $page := .page }}
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav>
     <ul>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>
-  </nav>
 {{- end }}
 
 {{- define "partials/inline/menu/walk.html" }}

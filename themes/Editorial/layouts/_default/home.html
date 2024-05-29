@@ -1,11 +1,9 @@
 {{ define "main" }}
 <div class="inner">
-  {{ partial "body/header.html" . }}
   <h3> Home Template </h3>
-  {{ .Content }}
-  {{ range site.RegularPages }}
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ .Summary }}
-  {{ end }}
+  {{ partial "body/header.html" . }}
+  {{ partial "sections/banner.html" . }}
+  {{ partial "sections/section.html" . }}
+  {{ partial "sections/articles.html" . }}
 </div>
 {{ end }}

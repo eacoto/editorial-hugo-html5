@@ -15,7 +15,7 @@ weight = 20
 
 [[menus.main]]
 name = 'Planets'
-pageRef = '/planets'
+pageRef = '/planets/exploration/'
 weight = 30
 
 [[menus.main]]

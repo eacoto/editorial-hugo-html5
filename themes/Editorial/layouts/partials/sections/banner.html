@@ -1,0 +1,18 @@
+<section id="banner">
+    <div class="content">  
+        {{ range site.RegularPages | first 1 }}
+        <h3>banner section</h3>
+        <header>
+            <h2> {{.Title}} </h2>
+            <p></p>
+        </header>
+        <p> {{ .Summary }} </p>
+        <ul class="actions">
+            <li><a href="{{ .RelPermalink }}" class="button big">Read More</a></li>
+        </ul>
+    </div>
+    <a class="image object">
+        <img src="{{ .Params.src }}" alt="" />
+    </a>
+    {{ end }}
+</section>

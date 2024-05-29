@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="inner">
+  <h3> Home Template </h3>
+  {{ .Content }}
+  {{ range site.RegularPages }}
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ .Summary }}
+  {{ end }}
+</div>
+{{ end }}

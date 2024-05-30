@@ -6,7 +6,7 @@
         </header>
         <h5> Articles senction </h5>
       <div class="posts">
-        {{ range site.RegularPages | first 6 }}
+        {{ range site.RegularPages | last 6 }}
         <article> 
           <a href="#" class="image"><img src="{{ .Params.src }}" alt="" /></a>
           

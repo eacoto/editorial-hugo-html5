@@ -16,8 +16,10 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
     <ul>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+
     </ul>
 {{- end }}
+</nav>
 
 {{- define "partials/inline/menu/walk.html" }}
   {{- $page := .page }}
@@ -43,11 +45,10 @@ Renders a menu for the given menu ID.
         {{- end -}}
       >{{ $name }}</a>
       {{- with .Children }}
-        <ul>
+        <ul class="submenu">
           {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
         </ul>
       {{- end }}
     </li>
   {{- end }}
-</nav>
 {{- end }}

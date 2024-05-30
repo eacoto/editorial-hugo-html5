@@ -17,6 +17,12 @@ weight = 20
 name = 'Planets'
 pageRef = '/planets/'
 weight = 30
+    
+[[menus.main]]
+name = 'Mars'
+pageRef = '/planets/mars'
+parent = 'Planets'
+weight = 1
 
 [[menus.main]]
 name = 'Biology'
@@ -28,7 +34,9 @@ name = 'Tags'
 pageRef = '/tags'
 weight = 50
 
+
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+

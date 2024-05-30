@@ -3,14 +3,18 @@
 <head>
   {{ partial "head/head.html" . }}
 </head>
-<body class="is-preload">
-  <div id="wrapper">
-    <!-- Main -->
-    <main id="main">
-      {{ block "main" . }}{{ end }}
-    </main>
-    <!-- Sidebar -->
-    {{ partial "body/sidebar.html" . }}
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper"> 
+        <!-- Main -->
+        <div id="main">
+          {{ block "main" . }}{{ end }}
+        </div>
+        <!-- Sidebar -->
+        <div id="sidebar">
+          {{ partial "body/sidebar.html" . }}
+        </div>
+    </div>
     {{ partialCached "footer/scripts.html" . }}
-</body>
+  </body>
 </html>

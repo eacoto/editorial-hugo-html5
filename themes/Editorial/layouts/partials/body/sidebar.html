@@ -3,7 +3,7 @@
         <!-- Search -->
         {{ partial "components/search.html" . }}
         <!-- Menu -->
-        {{ partial "body/menu.html" }}  
+        {{ partial "body/menu.html" (dict "menuID" "main" "page" .)}}  
         <!-- Section Minipost -->
         {{ partial "components/minipost.html" . }}     
         <!-- Section Getintouch --> 

@@ -19,9 +19,9 @@ pageRef = '/planets/'
 weight = 30
     
 [[menus.main]]
+parent = 'Planets'
 name = 'Mars'
 pageRef = '/planets/mars'
-parent = 'Planets'
 weight = 1
 
 [[menus.main]]

@@ -1,8 +1,10 @@
-{{- $scripts := slice "js/jquery.min.js" "js/browser.min.js"  "js/breakpoints.min.js"  "js/util.js" "js/main.js" }}
+{{- $scripts := slice "/js/jquery.min.js" "/js/browser.min.js"  "/js/breakpoints.min.js"  "/js/util.js" "/js/main.js" }}
 {{- range $scripts }}
-  {{- with resources.Get . }}
+  {{- with resources.Get  . }}
     {{- if eq hugo.Environment "development" }}
-      {{- with . | js.Build }}
+    {{/* TODO: try to isert min.js files in these proces ({{- with . | js.Build }} old line)
+    whitout removing js.Build */}}
+      {{- with . }}
         <script src="{{ .Permalink }}"></script>
       {{- end }}
       {{- else }}

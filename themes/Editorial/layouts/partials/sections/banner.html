@@ -1,7 +1,8 @@
 <section id="banner">
     <div class="content">  
         <p>banner section</p>
-        {{ range site.RegularPages | first 1 }}
+        {{ $pages := site.RegularPages | shuffle }}
+        {{ range $pages | first 1 }}
         <header>
             <h2> {{.Title}} </h2>
             <p></p>

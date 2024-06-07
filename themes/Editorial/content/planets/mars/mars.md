@@ -6,7 +6,7 @@ tags = ['science','planets',]
 [image]
   [params]
     name = 'header'
-    src = '/planets/mars.jpg'
+    src = '/planets/mars/mars.jpg'
 +++
 
 ## Giant polygon rock patterns may be buried deep below Mars’ surface

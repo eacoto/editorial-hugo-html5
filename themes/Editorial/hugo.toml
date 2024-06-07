@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Science & Nature' # title come from here
-
+summaryLength = 40
 
 [[menus.main]]
 name = 'Home'

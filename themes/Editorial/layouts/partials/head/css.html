@@ -5,7 +5,8 @@
       {{- if eq hugo.Environment "development" }}
         <link rel="stylesheet" href="{{ .Permalink }}">
       {{- else }}
-      {{- with . | minify | fingerprint }}
+      {{- with . | fingerprint }}
+      {{/* TODO:  check if these line is causing problems (- with . | minify | fingerprint */}}
         <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
       {{- end }}
     {{- end }}

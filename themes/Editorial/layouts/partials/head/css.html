@@ -1,14 +1,16 @@
+{{/* TODO:  check if these line is causing problems (- with . | minify | fingerprint */}}
+{{/* TODO:  make shure that webfonts gets load from here*/}}
+{{/* TODO:  remove  webfonts from static */}}
 
 {{- $styles := slice "/css/main.css" "/css/fontawesome-all.min.css" }}
-{{- range $styles }}
-  {{- with resources.Get . }}
-      {{- if eq hugo.Environment "development" }}
-        <link rel="stylesheet" href="{{ .Permalink }}">
-      {{- else }}
-      {{- with . | fingerprint }}
-      {{/* TODO:  check if these line is causing problems (- with . | minify | fingerprint */}}
-        <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-      {{- end }}
+  {{- range $styles }}
+    {{- with resources.Get . }}
+        {{- if eq hugo.Environment "development" }}
+          <link rel="stylesheet" href="{{ .Permalink }}">
+        {{- else }}
+        {{- with . | fingerprint }}
+          <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+        {{- end }}
     {{- end }}
-{{- end }}
+  {{- end }}
 {{- end }}
